@@ -1,0 +1,55 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 18px;
+}
+.navbar {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: center;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+}
+.title-text {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+.score-container {
+  display: flex;
+}
+.score {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.top-score {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 70px;
+  }
+  .title-text {
+    font-size: 24px;
+  }
+  .score {
+    font-size: 24px;
+  }
+  .top-score {
+    font-size: 24px;
+  }
+}
